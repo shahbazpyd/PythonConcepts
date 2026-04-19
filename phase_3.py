@@ -3,24 +3,49 @@ Phase 3: Data Structures (Collections)
 This script demonstrates how to store and manage groups of data.
 """
 """🧠 The Mental Model: Phase 3
-Think of your program's memory as a kitchen. Phase 1 gave you individual ingredients (numbers, strings). Phase 3 gives you the containers to organize them.
+Think of your program's memory as a kitchen. Phase 1 gave you 
+individual ingredients (numbers, strings). Phase 3 gives you the 
+containers to organize them.
 
 Lists - A Shopping List:
 
-It's a piece of paper where you write down items in order. You can add new items to the bottom (append), cross items off (pop), change an item, or reorder the entire list (sort). It's your all-purpose, flexible container.
+It's a piece of paper where you write down items in order. 
+You can add new items to the bottom (append), cross items off (pop)
+, change an item, or reorder the entire list (sort). 
+It's your all-purpose, flexible container.
+
 Tuples - A Published Recipe:
 
-These are the ingredients and steps for a recipe that has been finalized and published. The steps are ordered, but you cannot change them. This immutability guarantees that the recipe won't be accidentally altered while you're cooking.
+These are the ingredients and steps for a recipe that has been 
+finalized and published. The steps are ordered, but you cannot 
+change them. This immutability guarantees that the recipe won't be
+accidentally altered while you're cooking.
+
 Dictionaries - A Spice Rack:
 
-Each jar has a unique label (the key) and contains a specific spice (the value). You don't care about the order of the jars on the rack; you just want to grab "Cinnamon" instantly by its label. It's incredibly fast for lookups.
+Each jar has a unique label (the key) and contains a specific 
+spice (the value). You don't care about the order of the jars on 
+the rack; you just want to grab "Cinnamon" instantly by its label. 
+It's incredibly fast for lookups.
+
 Sets - A Bowl of Unique Fruits:
 
-This is a fruit bowl where you can only have one of each type of fruit. You can't have two identical apples. The main questions you ask are: "Is there an apple in the bowl?" (in) or "What fruits do I get if I combine my bowl with a friend's?" (union). The arrangement doesn't matter.
+This is a fruit bowl where you can only have one of each type of 
+fruit. You can't have two identical apples. The main questions 
+you ask are: "Is there an apple in the bowl?" (in) or 
+"What fruits do I get if I combine my bowl with a friend's?" 
+(union). The arrangement doesn't matter.
+
 Mutability vs. Immutability - The Original vs. The Photocopy:
 
-Immutable (Tuples, Strings): When you pass an immutable variable, you're giving someone a photocopy. They can write on their copy all they want, but the original is safe.
-Mutable (Lists, Dictionaries): When you pass a mutable variable, you're giving someone a link to a shared document. Any change they make is a change to the one and only original document.
+Immutable (Tuples, Strings): When you pass an immutable variable, 
+you're giving someone a photocopy. They can write on their copy 
+all they want, but the original is safe.
+Mutable (Lists, Dictionaries): When you pass a mutable variable, 
+you're giving someone a link to a shared document. 
+Any change they make is a change to the one and only original 
+document.
+
 Comprehensions - The Magical Assembler:
 
 Instead of building a shopping list one item at a time (for loop), you give a single, concise command: "Give me a list of all the even numbers from 1 to 100." It's a powerful and "Pythonic" way to build collections instantly."""

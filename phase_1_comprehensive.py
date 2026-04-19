@@ -7,13 +7,16 @@ Think of Python code as a script for a play.
 
 Syntax (The Grammar):
 
-Indentation: This is the stage direction. It tells the actors (the computer) which lines belong to which scene. If you don't indent correctly, the actors get confused about when to act.
+Indentation: This is the stage direction. It tells the actors (the computer) which 
+lines belong to which scene. If you don't indent correctly, the actors get confused 
+about when to act.
 Comments: These are notes for the director (you), ignored by the actors.
 Variables (The Name Tags):
 
 In some languages, variables are boxes. In Python, they are sticky notes.
 score = 10 means you stick a note written "score" onto the number 10.
-Dynamic Typing: You can peel the "score" note off 10 and stick it onto "Ten". The note doesn't care what it's attached to.
+Dynamic Typing: You can peel the "score" note off 10 and stick it onto "Ten". 
+The note doesn't care what it's attached to.
 Data Types (The Props):
 
 Integers/Floats: Numbers for math.
@@ -21,7 +24,8 @@ Strings: Text for dialogue.
 Booleans: Light switches (only ON or OFF).
 Operators (The Action Verbs):
 
-These are the actions that happen on stage. + combines things, == compares them, and connects conditions."""
+These are the actions that happen on stage. + combines things, == compares them, 
+and connects conditions."""
 def main():
     # ==========================================
     # 1. BASIC SYNTAX

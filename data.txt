@@ -1,0 +1,129 @@
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+done
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbPS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+done
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+slow_task took 2.00 seconds
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+slow_task took 1773427369.4109626 seconds
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+slow_task took 1773427448.4187834 1773427450.4192557 seconds
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+slow_task took 1.8e+09 1.8e+09 seconds
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+slow_task took 1773431238.29 1773431240.29 seconds
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+slow_task took 1773431386.56 1773431388.56 seconds
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+slow_task took 2.00 seconds
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+11
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+nterview_Progrms\decorator_programs.py", line 48, in <module>
+    result = sum(5,6)
+TypeError: 'NoneType' object is not callable
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+11
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts>
+
+                                                   & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+args 5 6
+kwargs
+11
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py     
+kwargs
+21
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+args (5, 6)
+kwargs {}
+21
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+<function greet at 0x000002511909BB60>
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+<function greet at 0x000001AA5B1CBB60>
+hello
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+HELLO
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+<function make_loud.<locals>.wrapper at 0x000001C8F64237F0>
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+HELLO
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+HELLO
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+Traceback (most recent call last):
+  File "c:\Users\sbzal\OneDrive\Desktop\PythonConcepts\Interview_Progrms\decorator_programs.py", line 56, in <module>
+    @make_loud
+     ^^^^^^^^^
+NameError: name 'make_loud' is not defined
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+HELLO
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+HELLO
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+HELLO
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+args (5, 6)
+kwargs {}
+Traceback (most recent call last):
+  File "c:\Users\sbzal\OneDrive\Desktop\PythonConcepts\Interview_Progrms\decorator_programs.py", line 54, in <module>
+    result = sum(5,6)
+  File "c:\Users\sbzal\OneDrive\Desktop\PythonConcepts\Interview_Progrms\decorator_programs.py", line 44, in wrapper
+    result = func(*args, **kwargs)
+TypeError: sum() missing 2 required positional arguments: 'a' and 'b'
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+args (5, 6)
+kwargs {}
+21
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+args (5, 6)
+kwargs {}
+50
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+args (5, 6)
+kwargs {}
+args: (20, 30)
+50
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py
+args (5, 6)
+kwargs {}
+args: (15, 16)
+31
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/decorator_programs.py     
+args (5, 5)
+kwargs {}
+args: (15, 15)
+30
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/generator_programs.py
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/generator_programs.py
+<generator object get_numbers at 0x000001B4BAEA9560>
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/generator_programs.py
+0
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/generator_programs.py     
+0
+1
+2
+3
+4
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/generator_programs.py     
+0
+2
+4
+6
+8
+python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/generator_programs.py
+0
+2
+4
+6
+8
+10
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> & c:\python314\python.exe c:/Users/sbzal/OneDrive/Desktop/PythonConcepts/Interview_Progrms/context_manager_programs.py
+Traceback (most recent call last):
+  File "c:\Users\sbzal\OneDrive\Desktop\PythonConcepts\Interview_Progrms\context_manager_programs.py", line 1, in <module>
+    f = open("data.txt", "r")
+FileNotFoundError: [Errno 2] No such file or directory: 'data.txt'
+PS C:\Users\sbzal\OneDrive\Desktop\PythonConcepts> 

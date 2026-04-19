@@ -1,15 +1,22 @@
 """
 Phase 5: Object-Oriented Programming (OOP)
-This script demonstrates how to structure code around objects, including inheritance,
+This script demonstrates how to structure code around objects, 
+including inheritance,
 encapsulation, and advanced class features.
 """
 """🧠 The Mental Model: Phase 5
-OOP is about modeling your code after real-world objects. Instead of just writing a list of instructions (procedural programming), you create "things" that have properties and behaviors.
+OOP is about modeling your code after real-world objects. 
+Instead of just writing a list of instructions (procedural programming), 
+you create "things" that have properties and behaviors.
 
 Classes vs. Objects (The Blueprint vs. The House):
 
-Class: The architectural blueprint. It defines where the walls go and how the lights work. You can't live in a blueprint.
-Object (Instance): The actual house built from that blueprint. You can build 50 identical houses (objects) from one blueprint (class).
+Class: The architectural blueprint. It defines where the walls go
+and how the lights work. You can't live in a blueprint.
+Object (Instance): The actual house built from that blueprint. 
+You can build 50 identical houses (objects) from one blueprint 
+(class).
+
 __init__ & self (The Construction Crew & "Me"):
 
 __init__: When you decide to build a house, this is the construction crew that shows up to set the initial state (paint color, number of rooms).
@@ -18,16 +25,24 @@ Encapsulation (The Safe):
 
 Some things in your house are for guests (Public: doorbell).
 Some are for family only (Protected _: family_album).
-Some are locked in a safe (Private __: social_security_card). You don't want outsiders messing with the wiring inside your walls directly; you give them a light switch (Getter/Setter) to interact with it safely.
+Some are locked in a safe (Private __: social_security_card). 
+You don't want outsiders messing with the wiring inside your walls
+directly; you give them a light switch (Getter/Setter) to 
+interact with it safely.
 Inheritance (Genetics):
 
-A "Sports Car" is a child of "Car". It inherits wheels, an engine, and seats from "Car", but it adds a "Turbo" button and changes how the "Drive" method works. You don't have to reinvent the wheel.
+A "Sports Car" is a child of "Car". It inherits wheels, an engine, 
+and seats from "Car", but it adds a "Turbo" button and changes 
+how the "Drive" method works. You don't have to reinvent the wheel.
 Polymorphism (The Universal Remote):
 
 You have a button labeled "Play". If you point it at a DVD player, it spins a disc. If you point it at a generic MP3 player, it plays a file. The interface ("Play") is the same, but the actual behavior differs depending on the object.
 Magic Methods (The Wizardry):
 
-Python objects are born knowing nothing. They don't know how to add themselves (+) or print themselves as text. Magic methods (like __add__ or __str__) teach them these fundamental skills."""
+Python objects are born knowing nothing. They don't know how to 
+add themselves (+) or print themselves as text. 
+Magic methods (like __add__ or __str__) teach them these 
+fundamental skills."""
 from abc import ABC, abstractmethod
 
 def main():

@@ -1,6 +1,7 @@
 """
 Phase 4: Functions & Modularity
-This script demonstrates how to create reusable code blocks, manage scope,
+This script demonstrates how to create reusable code blocks, 
+manage scope,
 and organize code into modules.
 """
 """🧠 The Mental Model: Phase 4
@@ -8,27 +9,51 @@ Think of your code as a professional kitchen.
 
 Functions (def, return) - A Specialized Appliance:
 
-A function is like a blender. You don't want to manually mash ingredients every time. Instead, you package that logic into a reusable appliance. You put ingredients in (parameters), it does its job, and it gives you a result (returns a smoothie).
-Parameters (Positional, Keyword, Default) - The Appliance's Settings:
+A function is like a blender. You don't want to manually mash 
+ingredients every time. Instead, you package that logic into a 
+reusable appliance. You put ingredients in (parameters), 
+it does its job, and it gives you a result (returns a smoothie).
+Parameters (Positional, Keyword, Default) - The Appliance's 
+Settings:
 
 Positional: The order matters. blend(fruit, liquid).
-Keyword: You label the settings, so order doesn't matter. blend(liquid="milk", fruit="banana").
-Default: The appliance has a factory setting. blend(fruit, liquid="water"). If you don't specify a liquid, it defaults to water.
+Keyword: You label the settings, so order doesn't matter. 
+blend(liquid="milk", fruit="banana").
+Default: The appliance has a factory setting. 
+blend(fruit, liquid="water"). If you don't specify a liquid, it 
+defaults to water.
+
 *args, **kwargs - The "And More..." Bins:
 
-*args: A "catch-all" bin for extra ingredients. "Blend a banana, and also these strawberries, blueberries, and raspberries." It collects them all into a tuple.
-**kwargs: A "catch-all" for extra settings. "Blend with speed='high', pulse=True." It collects them into a dictionary.
+*args: A "catch-all" bin for extra ingredients. "Blend a banana, 
+and also these strawberries, blueberries, and raspberries." 
+It collects them all into a tuple.
+**kwargs: A "catch-all" for extra settings. "Blend with speed='high', 
+pulse=True." It collects them into a dictionary.
+
 Scope (Local, Global, Nonlocal) - Where Your Ingredients Are:
 
-Local: Ingredients on your personal cutting board. They are used for one recipe and then discarded.
-Global: Ingredients in the main pantry, available to anyone in the kitchen.
-Nonlocal: Ingredients in a container on the counter, used by a series of related steps (like in a nested recipe).
+Local: Ingredients on your personal cutting board. They are used 
+for one recipe and then discarded.
+Global: Ingredients in the main pantry, available to anyone in the 
+kitchen.
+Nonlocal: Ingredients in a container on the counter, used by a 
+series of related steps (like in a nested recipe).
+
 Lambda Functions - A Disposable Gadget:
 
-This is a single-use tool, like a plastic lemon squeezer. You use it for one quick task (e.g., sorting a list by a specific rule) and then toss it. You don't give it a formal name or store it.
+This is a single-use tool, like a plastic lemon squeezer. 
+You use it for one quick task (e.g., sorting a list by a specific 
+rule) and then toss it. You don't give it a formal name or store 
+it.
+
 Recursion - Russian Nesting Dolls:
 
-To open the whole set, you open the outer doll, which reveals another doll. You apply the exact same process (open it) to the new, smaller doll, and so on, until you reach the smallest one (the "base case").
+To open the whole set, you open the outer doll, which reveals 
+another doll. You apply the exact same process (open it) to the 
+new, smaller doll, and so on, until you reach the smallest one 
+(the "base case").
+
 Modules & Packages - The Kitchen's Organization:
 
 Module (.py file): A drawer for a specific type of tool (e.g., baking_tools.py).
@@ -36,7 +61,8 @@ Package (directory): The entire cabinet or section of the kitchen (e.g., a bakin
 # ==========================================
 # 8. MODULES & PACKAGES
 # ==========================================
-# A module is a Python file with code you can import. 'math' is a built-in module.
+# A module is a Python file with code you can import. 'math' is a 
+# built-in module.
 import math
 
 # You can import a specific function and give it an alias.

@@ -1,9 +1,11 @@
 """
 Phase 2: Control Flow
-This script demonstrates how to direct the execution of code using conditionals, loops, and matching.
+This script demonstrates how to direct the execution of code using conditionals, 
+loops, and matching.
 """
 """🧠 The Mental Model: Phase 2
-If Phase 1 was about the actors (variables) and props (data types), Phase 2 is the script's direction. It tells the actors where to go and when to stop.
+If Phase 1 was about the actors (variables) and props (data types), Phase 2 is the 
+script's direction. It tells the actors where to go and when to stop.
 
 Conditionals (if/elif/else) - The Fork in the Road:
 
@@ -14,16 +16,21 @@ Else (red), stop.
 The code only takes one of these paths.
 Loops - The Assembly Line:
 
-for loop: You have a checklist of 5 items. You do the exact same task for item 1, then item 2, until the list is done.
-while loop: You are filling a bucket with water. You don't know exactly how many seconds it will take, but you keep the tap open while the bucket is not full.
+for loop: You have a checklist of 5 items. You do the exact same task for item 1, 
+then item 2, until the list is done.
+while loop: You are filling a bucket with water. You don't know exactly how many 
+seconds it will take, but you keep the tap open while the bucket is not full.
 Control Keywords - The Traffic Signs:
 
 break: Emergency Exit. Stop the assembly line immediately and leave the factory.
-continue: Skip this item. "This apple is rotten, throw it out and grab the next one immediately."
-pass: "Under Construction." A placeholder sign that says "I will build a bridge here later, but for now, just drive through."
+continue: Skip this item. "This apple is rotten, throw it out and grab the next one 
+immediately."
+pass: "Under Construction." A placeholder sign that says "I will build a bridge 
+here later, but for now, just drive through."
 The Walrus Operator (:=) - The "Look and Grab":
 
-Usually, you look at a price tag (check condition) and then write it down (assignment) in two steps.
+Usually, you look at a price tag (check condition) and then write it down 
+(assignment) in two steps.
 The Walrus lets you look at the price and write it down in a single glance.
 Pattern Matching (match/case) - The Shape Sorter:
 

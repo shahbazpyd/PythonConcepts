@@ -8,28 +8,51 @@ Phase 8 is about looking "under the hood" of the car and modifying the engine it
 
 Memory Management (The Warehouse Manager):
 
-Reference Counting: Think of every object (like a balloon) having a counter attached to it. Every time someone holds the string, the counter goes up. When they let go, it goes down. If the counter hits zero, the balloon flies away (is deleted).
-Garbage Collection (GC): The janitor. Sometimes two people hold each other's balloons, but nobody else is watching them (circular reference). The reference count never hits zero, but they are useless. The GC finds these isolated groups and sweeps them away.
+Reference Counting: Think of every object (like a balloon) having a counter attached 
+to it. Every time someone holds the string, the counter goes up. When they let go, 
+it goes down. If the counter hits zero, the balloon flies away (is deleted).
+Garbage Collection (GC): The janitor. Sometimes two people hold each other's balloons,
+but nobody else is watching them (circular reference). The reference count never hits
+ zero, but they are useless. The GC finds these isolated groups and sweeps them away.
 id(): The exact shelf number in the warehouse where the object lives.
+
 Metaprogramming (The Factory Factory):
 
 Classes are blueprints for creating Objects (Houses).
 Metaclasses are blueprints for creating Classes (Architects).
 type: The default architect.
-__new__ vs __init__: __new__ is buying the raw materials (creating the empty object). __init__ is decorating the interior (setting values). You rarely need __new__ unless you are messing with immutable types or metaclasses.
+__new__ vs __init__: __new__ is buying the raw materials (creating the empty object).
+ __init__ is decorating the interior (setting values). You rarely need __new__ unless 
+ you are messing with immutable types or metaclasses.
+
 Descriptors (The Gatekeepers):
 
 Standard attributes are like open doors. You can walk in and throw furniture around.
-Descriptors (__get__, __set__) are security guards stationed at specific doors. If you try to bring in a negative number, the guard stops you.
+Descriptors (__get__, __set__) are security guards stationed at specific doors. 
+If you try to bring in a negative number, the guard stops you.
+
 Concurrency & Parallelism (The Kitchen Staff):
 
-Threading (I/O Bound): One chef (CPU) with multiple pots on the stove. While water boils (waiting for I/O, network), the chef chops onions. The GIL (Global Interpreter Lock) prevents the chef from chopping two things at exactly the same time, but they switch tasks so fast it looks simultaneous.
-Multiprocessing (CPU Bound): Two chefs in two completely different kitchens. They can chop onions simultaneously. This bypasses the GIL but requires more overhead to coordinate.
-Asyncio (The Waiter): One waiter handling 10 tables. They take an order, send it to the kitchen, and immediately go to the next table. They don't wait for the food to cook before talking to the next customer.
+Threading (I/O Bound): One chef (CPU) with multiple pots on the stove. While water boils 
+(waiting for I/O, network), the chef chops onions. The GIL (Global Interpreter Lock) 
+prevents the chef from chopping two things at exactly the same time, but they switch 
+tasks so fast it looks simultaneous.
+
+Multiprocessing (CPU Bound): Two chefs in two completely different kitchens. 
+They can chop onions simultaneously. This bypasses the GIL but requires more 
+overhead to coordinate.
+
+Asyncio (The Waiter): One waiter handling 10 tables. They take an order, send it to 
+the kitchen, and immediately go to the next table. They don't wait for the food to 
+cook before talking to the next customer.
+
 Slots (The Fixed Menu):
 
-Normal objects use a dictionary (__dict__) to store attributes. It's flexible (you can order anything off-menu) but uses a lot of memory (RAM).
-__slots__ is a fixed menu. You can only have exactly what is listed. It saves massive amounts of memory if you have millions of objects."""
+Normal objects use a dictionary (__dict__) to store attributes. It's flexible 
+(you can order anything off-menu) but uses a lot of memory (RAM).
+__slots__ is a fixed menu. You can only have exactly what is listed. 
+It saves massive amounts of memory if you have millions of objects."""
+
 import sys
 import time
 import threading
@@ -73,7 +96,8 @@ def main():
     print(f"ID of y: {id(y)} (Same as x)")
     
     # Reference Counting
-    # Note: getrefcount returns 1 higher than expected because passing it to the function adds a ref.
+    # Note: getrefcount returns 1 higher than expected because passing it to the 
+    # function adds a ref.
     print(f"Ref count of x: {sys.getrefcount(x)}") 
     del y
     print(f"Ref count after deleting y: {sys.getrefcount(x)}")

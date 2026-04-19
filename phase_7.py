@@ -4,24 +4,40 @@ This script demonstrates writing cleaner, more efficient code using functional p
 """
 
 """🧠 The Mental Model: Phase 7
-Functional programming is about treating data like water flowing through pipes. You don't change the pipes; you just transform the water as it flows.
+Functional programming is about treating data like water flowing through pipes. 
+You don't change the pipes; you just transform the water as it flows.
 
 Iterables vs. Iterators (The Playlist vs. The "Next" Button):
 
-Iterable: A music playlist. It contains a list of songs. You can look at the whole list.
-Iterator: The internal pointer that tracks "Now Playing". It only knows what the next song is. You can't rewind an iterator; once you press next(), the previous moment is gone.
+Iterable: A music playlist. It contains a list of songs. You can look at the whole 
+list.
+
+Iterator: The internal pointer that tracks "Now Playing". It only knows what the 
+next song is. You can't rewind an iterator; once you press next(), the previous 
+moment is gone.
+
 Generators (The Water Tap):
 
-List: Buying a 24-pack of water bottles. It's heavy (uses lots of RAM) and takes up space, even if you only want one sip right now.
-Generator: A water tap. It gives you water one cup at a time (yield) when you ask for it. It takes up almost no space (memory) because it doesn't store the water; it just knows how to produce it flow by flow.
+List: Buying a 24-pack of water bottles. It's heavy (uses lots of RAM) and takes 
+up space, even if you only want one sip right now.
+Generator: A water tap. It gives you water one cup at a time (yield) when you ask 
+for it. It takes up almost no space (memory) because it doesn't store the water; 
+it just knows how to produce it flow by flow.
+
 Closures (The Backpack):
 
-Imagine a function is a person leaving their house (scope). Usually, when they leave, the house disappears.
-A Closure is like a backpack. Before the person leaves, they pack specific items (variables) from the house into the backpack. Even after the house is gone, they still have access to those specific items in their backpack wherever they go.
+Imagine a function is a person leaving their house (scope). Usually, when they leave,
+ the house disappears.
+A Closure is like a backpack. Before the person leaves, they pack specific items 
+(variables) from the house into the backpack. Even after the house is gone, they 
+still have access to those specific items in their backpack wherever they go.
+
 Decorators (The Picture Frame):
 
-You have a photo (function). You want to make it look better without drawing on the photo itself.
-You put it in a frame (decorator). The frame surrounds the photo. It can add things before the photo (glass) or after (backing), but the photo inside remains untouched.
+You have a photo (function). You want to make it look better without drawing on the 
+photo itself.
+You put it in a frame (decorator). The frame surrounds the photo. It can add things 
+before the photo (glass) or after (backing), but the photo inside remains untouched.
 Higher-Order Functions (The Assembly Line Robots):
 
 map: A robot that spray-paints every car on the line red. (Transforms every item).
@@ -49,7 +65,8 @@ def main():
     # 2. GENERATORS (The Water Tap)
     # ==========================================
     print("\n--- 2. Generators ---")
-    # Unlike lists (which store all data in memory), generators produce items on the fly.
+    # Unlike lists (which store all data in memory), generators produce items on the
+    # fly.
     # Mental Model: A vending machine (list) vs. a manufacturing machine (generator).
     
     def countdown_generator(n):

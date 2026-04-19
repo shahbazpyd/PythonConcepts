@@ -4,12 +4,14 @@ This script demonstrates how to interact with files and manage errors gracefully
 """
 
 """🧠 The Mental Model: Phase 6
-Phase 6 is about interacting with the outside world (files) and handling the chaos of reality (errors).
+Phase 6 is about interacting with the outside world (files) and handling the chaos 
+of reality (errors).
 
 Exceptions (try, except, else, finally) - The Trapeze Act:
 
 try: This is the trapeze artist attempting a dangerous stunt.
-except: This is the safety net. If the artist falls (ZeroDivisionError), the net catches them so the show doesn't end abruptly with a crash.
+except: This is the safety net. If the artist falls (ZeroDivisionError), the net 
+catches them so the show doesn't end abruptly with a crash.
 else: This is the applause. It only happens if the stunt was successful (no fall).
 finally: This is the janitor. Whether the artist landed the stunt or fell into the net, the janitor always comes out to sweep the stage (close connections, clean memory).
 Raising Exceptions (raise) - The Fire Alarm:
